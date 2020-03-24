@@ -1,4 +1,4 @@
-
+// verificador de numero
 let vnum = document.getElementById('txti')
 let vlista = document.getElementById('flista')
 let res = document.getElementById('res')
@@ -59,7 +59,7 @@ function finalizar() {
         }
 
 
-
+        //Exibi os resultados
         res.innerHTML=''
         res.innerHTML+=`<p>O maior valor digitado é: ${maior}<p>`
         res.innerHTML+=` <p>O menor valor digitado é:${menor}<p>`
